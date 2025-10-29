@@ -3,11 +3,11 @@ services:
 - type: web
   name: ghcr-badge
   runtime: docker
-  repo: https://github.com/eggplants/ghcr-badge
+  repo: https://github.com/fredbi/ghcr-badge
   plan: free
-  region: singapore
+  region: frankfurt
   healthCheckPath: /health
   dockerContext: .
   dockerfilePath: ./Dockerfile
   domains:
-  - ghcr-badge.egpl.dev
+  - ghcr-badge.swagger.dev
